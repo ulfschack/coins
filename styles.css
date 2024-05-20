@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+#results {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.result-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.result-item img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
