@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const resultsContainer = document.getElementById("results");
 
     const values = ["e", "w", "f", "a"];
-    const valueToFullName = { "e": "earth", "w": "water", "f": "fire", "a": "air" };
+    const valueToFullName = { "e": "Earth", "w": "Water", "f": "Fire", "a": "Air" };
     const valueToImage = { "e": "leaf.png", "w": "drop.png", "f": "flame.png", "a": "wind.png" };
 
-    for (let i = 1; i <= 30; i++) {
+    for (let i = 1; i <= 40; i++) {
         const option = document.createElement("option");
         option.value = i;
         option.textContent = i;
